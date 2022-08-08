@@ -10,7 +10,7 @@ void PrintVector(const std::vector<int>& vec)
 int main()
 {
 	std::vector<int> vec{1,2,3,4,5,6,7};
-	Solution().rotate(vec,8);
+	Solution().rotate(vec,9);  // vec = {6,7,1,2,3,4,5}
 	PrintVector(vec);
 	return 0;
 }
